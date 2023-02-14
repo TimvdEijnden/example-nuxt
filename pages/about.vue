@@ -1,9 +1,9 @@
 <template>
   <div>
     <h1>about</h1>
-    <p>On this page the button does <strong>NOT</strong> works creates the the following warning in console</p>
-    <pre>[Vue warn]: Failed to resolve component: nuxt-link</pre>
-    <p>Uses the built version of MyRouterLink in example-lib</p>
+    <p>On this page the button works and contains a nuxt-link which is defined in the example-lib</p>
+    <p>Uses the src version of MyRouterLink in example-lib</p>
+    <p>&nbsp;</p>
     <hr/>
     <nuxt-link to="/">index page</nuxt-link>
     <br/>
@@ -13,5 +13,5 @@
   </div>
 </template>
 <script setup>
-import {MyRouterLink} from "example-lib/dist";
+import {MyRouterLink} from "@timvdeijnden/example-lib/src";
 </script>

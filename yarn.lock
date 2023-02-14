@@ -1912,9 +1912,10 @@ eventemitter3@^4.0.0:
   integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
 
 "example-lib@https://github.com/TimvdEijnden/example-lib.git":
-  version "1.0.0"
-  resolved "https://github.com/TimvdEijnden/example-lib.git#bc7a6cd5e49b2701eb9ec9495c69429799a3202d"
+  version "1.0.1"
+  resolved "https://github.com/TimvdEijnden/example-lib.git#bc38753f0c95372dfd848e3379bfb16fc9e4cfb7"
   dependencies:
+    vue "^3.2.0"
     vue-demi "^0.13.11"
 
 execa@^5.1.1:
@@ -4207,7 +4208,7 @@ vue-router@^4.1.6:
   dependencies:
     "@vue/devtools-api" "^6.4.5"
 
-vue@^3.2.47:
+vue@^3.2.0, vue@^3.2.47:
   version "3.2.47"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.47.tgz#3eb736cbc606fc87038dbba6a154707c8a34cff0"
   integrity sha512-60188y/9Dc9WVrAZeUVSDxRQOZ+z+y5nO2ts9jWXSTkMvayiWxCWOWtBQoYjLeccfXkiiPZWAHcV+WTPhkqJHQ==

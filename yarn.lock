@@ -809,6 +809,14 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
+"@timvdeijnden/example-lib@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@timvdeijnden/example-lib/-/example-lib-1.0.1.tgz#d40ef0ba5ca4725e165f96bc22af04782f343210"
+  integrity sha512-/OHnj7hqLgJXfQxaREPp/Y46kiD6tTwz95gFKp7Z7ZLGHN6qQMhQuwaavGCYO79hPRyUk8udRW6wZdJqy38k2A==
+  dependencies:
+    vue "^3.2.0"
+    vue-demi "^0.13.11"
+
 "@trysound/sax@0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
@@ -1910,13 +1918,6 @@ eventemitter3@^4.0.0:
   version "4.0.7"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
   integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
-
-"example-lib@https://github.com/TimvdEijnden/example-lib.git":
-  version "1.0.1"
-  resolved "https://github.com/TimvdEijnden/example-lib.git#bc38753f0c95372dfd848e3379bfb16fc9e4cfb7"
-  dependencies:
-    vue "^3.2.0"
-    vue-demi "^0.13.11"
 
 execa@^5.1.1:
   version "5.1.1"

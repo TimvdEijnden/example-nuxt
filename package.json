@@ -5,12 +5,16 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
     "nuxt": "^3.2.0"
   },
   "dependencies": {
     "@timvdeijnden/example-lib": "^1.0.1"
-  }
+  },
+  "engines": {
+    "node": "16.x"
+ }
 }
